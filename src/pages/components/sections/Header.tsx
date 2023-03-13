@@ -8,7 +8,7 @@ export default function Header() {
     <header className="w-full md:h-20 h-16 z-50 bg-white fixed shadow-lg">
       <ul className="flex justify-between items-center h-full w-full md:text-xl text-md font-bold">
         <li className="w-[55%] hidden md:block">
-          <Link href="/" className="hover:text-red-500 text-left ml-10">
+          <Link href="/" className="hover:text-red-500 text-left ml-8">
             Fotomatic
           </Link>
         </li>
