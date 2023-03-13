@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { AiOutlineInstagram } from "react-icons/Ai";
 import { AiFillCamera } from "react-icons/Ai";
 import { BsPeopleFill } from "react-icons/bs";
+import { AiOutlineInstagram } from "react-icons/Ai";
 import Image from "next/image";
 
 export default function Header() {
