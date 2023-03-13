@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { AiOutlineInstagram, AiFillCamera } from "react-icons/Ai";
+import { AiOutlineInstagram } from "react-icons/Ai";
+import { AiFillCamera } from "react-icons/Ai";
 import { BsPeopleFill } from "react-icons/bs";
 import Image from "next/image";
 
