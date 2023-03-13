@@ -1,11 +1,14 @@
-import Header from "./components/Header";
-
+import Header from "./components/sections/Header";
+import Main from "./components/sections/Main";
+import Cards from "./components/Cards";
 
 export default function Home() {
+  
   return (
     <>
-    <div className="flex max-w-screen-3xl mb-30 bg-cyan-300 h-[100vh]">
+    <div className="flex flex-col mb-40 w-full max-w-fit bg-gray-200">
       <Header />
+      <Main />
     </div>
     </>
   );
