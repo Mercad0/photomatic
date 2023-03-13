@@ -22,7 +22,7 @@ export default function Main() {
   ];
 
   return (
-    <div className="w-screen h-full pt-16">
+    <div className="w-screen max-w-screen-xl mx-auto h-full md:pt-20 pt-16 flex flex-col">
       <div className="flex flex-col w-full relative">
         <Image
           src="/images/banner-landingpage.jpg"
@@ -50,9 +50,9 @@ export default function Main() {
           <h2 className="text-4xl mt-4">FORMAT CAMERA</h2>
         </div>
       </div>
-      <div className="flex md:flex-row gap-6 flex-col">
+      <div className="flex md:flex-row gap-6 justify-center flex-col">
         {photography.map((photography, index) => (
-          <div key={index} className="w-full md:w-1/2">
+          <div key={index} className="w-fit">
             <Cards
               src={photography.src}
               title={photography.title}

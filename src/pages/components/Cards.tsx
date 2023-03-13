@@ -15,18 +15,20 @@ export default function Cards({
   alt = " some alt text",
 }) {
   return (
-    <div className="md:w-[550px] md:h-[520px] bg-white text-black flex text-center flex-col rounded-lg mt-14 shadow-md mx-auto p-8">
+    <div className="w-[400px] h-[440px] bg-white text-black flex text-center flex-col rounded-lg mt-14 shadow-md p-4">
+      <div className="flex justify-center items-center flex-col">
       <Image
         src={src}
         alt={alt}
-        width={600}
-        height={100}
-        className="pb-2 md:pb-3 rounded-lg"
+        width={400}
+        height={400}
+        className="rounded-lg w-[400px]"
         priority={true}
       />
 
       <div className="text-xl md:text-2xl my-4">{title}</div>
       <div className="text-md md:text-xl">{description}</div>
+      </div>
     </div>
   );
 }

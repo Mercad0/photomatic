@@ -1,14 +1,15 @@
 import Header from "./components/sections/Header";
 import Main from "./components/sections/Main";
-import Cards from "./components/Cards";
+import Footer from "./components/sections/Footer";
 
 export default function Home() {
   
   return (
     <>
-    <div className="flex flex-col mb-40 w-full max-w-fit bg-gray-200">
+    <div className="flex flex-col h-full max-w-fit w-screen bg-gray-200">
       <Header />
       <Main />
+      <Footer />
     </div>
     </>
   );
